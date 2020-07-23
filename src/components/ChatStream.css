@@ -10,3 +10,40 @@
 .chat-stream {
   flex: 1;
 }
+img {
+  width: 4.5vh;
+  height: 4.5vh;
+  border-radius: 5vh;
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.message {
+  background-color: rgba(207, 207, 207, 0.808);
+  padding: 5px;
+  border: rgba(207, 207, 207, 0.808) 4px solid;
+  border-radius: 12px;
+  display: flex;
+  margin-top: 0px;
+}
+.user {
+  font-size: 13.5px;
+  margin-bottom: 5px;
+}
+.chat-message {
+  display: flex;
+}
+.sentMessages {
+  display: flex;
+  align-items: flex-end;
+  font-size: 20px;
+  justify-content: flex-end;
+}
+.sent {
+  display: flex;
+  background-color: rgb(16, 148, 255);
+  padding: 5px;
+  border-radius: 12px;
+  align-items: flex-end;
+  color: white;
+}
